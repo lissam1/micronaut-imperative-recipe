@@ -105,7 +105,12 @@
       <artifactId>junit-jupiter-engine</artifactId>
       <scope>test</scope>
     </dependency>
-
+    <!-- lombok is optional, but recommended for authoring recipes -->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <optional>true</optional>
+    </dependency>
     <!-- rewrite-java dependencies only necessary for Java Recipe development -->
     <dependency>
       <groupId>org.openrewrite</groupId>
