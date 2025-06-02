@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: micronaut.essential.demo
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [app-name, data, data-jdbc, http-client-test, java, java-application, jdbc-hikari, jul-to-slf4j, junit, liquibase, logback, management, maven, maven-enforcer-plugin, micronaut-aot, micronaut-http-validation, netty-server, oracle, properties, readme, serialization-jackson, shade, static-resources, test-resources]
